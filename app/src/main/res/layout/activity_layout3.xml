@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai7.Layout3Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consLayout2"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="#FF5252"
+            app:layout_constraintLeft_toLeftOf="@+id/consLayout1"
+            app:layout_constraintTop_toTopOf="@+id/consLayout1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="235dp"
+            android:layout_height="match_parent"
+            android:background="#BEE040FB"
+            app:layout_constraintLeft_toRightOf="@+id/consLayout2"
+            app:layout_constraintRight_toRightOf="@+id/consLayout1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/consLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:background="#B2FF59"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/consLayout1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consLayout4"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="@+id/consLayout3"
+            app:layout_constraintTop_toTopOf="@+id/consLayout3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/consLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:background="#ff0"
+                app:layout_constraintLeft_toLeftOf="@id/consLayout4"
+                app:layout_constraintTop_toTopOf="@+id/consLayout4" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#7C7C4DFF"
+                app:layout_constraintTop_toBottomOf="@+id/consLayout5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/consLayout6"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@+id/consLayout4"
+            app:layout_constraintTop_toTopOf="@+id/consLayout3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/consLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                app:layout_constraintLeft_toLeftOf="@+id/consLayout6"
+                app:layout_constraintTop_toTopOf="@+id/consLayout6" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/consLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:layout_constraintTop_toBottomOf="@+id/consLayout7">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/consLayout9"
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:background="#FF4040"
+                    app:layout_constraintLeft_toLeftOf="@+id/consLayout8"
+                    app:layout_constraintTop_toTopOf="@+id/consLayout8" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintLeft_toRightOf="@+id/consLayout9"
+                    app:layout_constraintTop_toTopOf="@+id/consLayout8" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

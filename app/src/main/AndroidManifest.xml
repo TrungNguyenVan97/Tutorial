@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.kotlinapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinApplication">
+        <activity
+            android:name=".bai7.Layout3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bai7.Layout2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bai7.Layout1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bai5.Bai5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bai4.Intent2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".bai4.Intent1Activity"
+            android:exported="true" />
         <activity
             android:name=".secod.DActivity"
             android:exported="false" />
