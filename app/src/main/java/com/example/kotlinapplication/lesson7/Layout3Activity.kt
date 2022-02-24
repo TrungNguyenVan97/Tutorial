@@ -1,4 +1,4 @@
-package com.example.kotlinapplication.bai7
+package com.example.kotlinapplication.lesson7
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

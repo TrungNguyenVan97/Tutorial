@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".secod.DActivity">
+    tools:context=".lesson2.DActivity">
 
     <Button
         android:id="@+id/btnD"

@@ -1,56 +1,58 @@
-package com.example.kotlinapplication.secod
+package com.example.kotlinapplication.lesson2
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.example.kotlinapplication.R
 
-class BActivity : AppCompatActivity() {
+class SecondActivity : AppCompatActivity() {
 
-    private lateinit var btnB: Button
+    private lateinit var btnA: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_bactivity)
+        setContentView(R.layout.activity_second)
 
-        Log.d("check", "B onCreate")
+        Log.d("check", "A onCreate")
 
-        btnB = findViewById(R.id.btnB)
-        btnB.setOnClickListener {
-            val intent = Intent(this, CActivity::class.java)
+        btnA = findViewById(R.id.btnA)
+        btnA.setOnClickListener {
+            val intent = Intent(this, BActivity::class.java)
             startActivity(intent)
         }
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.d("check", "B onRestart")
+        Log.d("check", "A onRestart")
     }
 
     override fun onStart() {
         super.onStart()
-        Log.d("check", "B onStart")
+        Log.d("check", "A onStart")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.d("check", "B onResume")
+        Log.d("check", "A onResume")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d("check", "B onPause")
+        Log.d("check", "A onPause")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d("check", "B onStop")
+        Log.d("check", "A onStop")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d("check", "B onDestroy")
+        Log.d("check", "A onDestroy")
     }
+
+
 }

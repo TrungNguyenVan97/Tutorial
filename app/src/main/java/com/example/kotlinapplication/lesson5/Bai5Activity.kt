@@ -1,4 +1,4 @@
-package com.example.kotlinapplication.bai5
+package com.example.kotlinapplication.lesson5
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -9,7 +9,6 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.core.app.ActivityCompat
 import com.example.kotlinapplication.R
-import java.util.jar.Manifest
 
 class Bai5Activity : AppCompatActivity() {
 

@@ -1,12 +1,13 @@
-package com.example.kotlinapplication.bai7
+package com.example.kotlinapplication.lesson7
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlinapplication.R
 
-class Layout1Activity : AppCompatActivity() {
+class Layout2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_layout1)
+        setContentView(R.layout.activity_layout2)
+
     }
 }

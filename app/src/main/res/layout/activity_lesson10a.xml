@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".lesson4.Intent2Activity">
+    tools:context=".lesson10and11.Lesson10aActivity">
 
-    <TextView
-        android:id="@+id/tv2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:text="Receive Data"
-        android:textSize="40sp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="20dp"
+    <Button
+        android:id="@+id/btnSendBroadcast"
+        android:layout_marginTop="50dp"
+        android:text="Send broadcast"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

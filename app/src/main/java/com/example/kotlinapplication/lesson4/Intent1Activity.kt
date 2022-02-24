@@ -1,4 +1,4 @@
-package com.example.kotlinapplication.bai4
+package com.example.kotlinapplication.lesson4
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -4,6 +4,8 @@
     package="com.example.kotlinapplication">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -13,34 +15,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinApplication">
         <activity
-            android:name=".bai7.Layout3Activity"
+            android:name=".lesson12and13.Lesson12Activity"
+            android:exported="true" />
+
+        <receiver android:name=".lesson10and11.MyReceiver" />
+
+        <activity
+            android:name=".lesson10and11.Lesson10bActivity"
             android:exported="true" />
         <activity
-            android:name=".bai7.Layout2Activity"
+            android:name=".lesson10and11.Lesson10aActivity"
             android:exported="true" />
         <activity
-            android:name=".bai7.Layout1Activity"
+            android:name=".lesson9.Lesson9Activity"
             android:exported="true" />
         <activity
-            android:name=".bai5.Bai5Activity"
+            android:name=".lesson8.Lesson8Activity"
             android:exported="true" />
         <activity
-            android:name=".bai4.Intent2Activity"
+            android:name=".lesson7.Layout3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson7.Layout2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson7.Layout1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson5.Bai5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson4.Intent2Activity"
             android:exported="false" />
         <activity
-            android:name=".bai4.Intent1Activity"
+            android:name=".lesson4.Intent1Activity"
             android:exported="true" />
         <activity
-            android:name=".secod.DActivity"
+            android:name=".lesson2.DActivity"
             android:exported="false" />
         <activity
-            android:name=".secod.CActivity"
+            android:name=".lesson2.CActivity"
             android:exported="false" />
         <activity
-            android:name=".secod.BActivity"
+            android:name=".lesson2.BActivity"
             android:exported="false" />
         <activity
-            android:name=".first.MainActivity"
+            android:name=".lesson1.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +69,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".secod.SecondActivity"
+            android:name=".lesson2.SecondActivity"
             android:exported="true" />
     </application>
 

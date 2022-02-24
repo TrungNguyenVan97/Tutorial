@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bai5.Bai5Activity">
+    tools:context=".lesson5.Bai5Activity">
 
     <EditText
         android:id="@+id/edtSDT"
