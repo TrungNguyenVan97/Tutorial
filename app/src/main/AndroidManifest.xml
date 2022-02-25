@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinApplication">
         <activity
+            android:name=".lesson14.DetailsL14Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lesson14.Lesson14Activity"
+            android:exported="true" />
+        <activity
             android:name=".lesson12and13.Lesson12Activity"
             android:exported="true" />
 

@@ -1,12 +1,25 @@
 package com.example.kotlinapplication.learning
+import java.lang.Exception
 
 fun main() {
-    var list = mutableListOf(3, 5, 6)
-    val result = list.fold(3) { t: Int, i: Int ->
-        t + i
+    try {
+        println(math())
+    } catch (e: Exception) {
+        println(e)
     }
-    print(result)
+
 }
+
+@Throws
+fun math(): Int {
+    var a = 5
+    var b = 0
+    return a / b
+}
+
+
+
+
 
 
 
