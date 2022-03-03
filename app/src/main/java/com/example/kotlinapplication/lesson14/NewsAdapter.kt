@@ -64,7 +64,7 @@ class NewsAdapter(private val listNews: ArrayList<Any>, private val call: ICallB
         internal var tvContent: TextView = itemView.findViewById(R.id.tvContent)
         internal var tvType: TextView = itemView.findViewById(R.id.tvType)
         internal var tvDate: TextView = itemView.findViewById(R.id.tvDate)
-        internal var layoutNews: LinearLayout = itemView.findViewById(R.id.layoutNews)
+        private var layoutNews: LinearLayout = itemView.findViewById(R.id.layoutNews)
 
         init {
             initAction()

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.kotlinapplication">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +16,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinApplication">
+        <activity
+            android:name=".api.CallAPIActivity"
+            android:exported="true" />
+        <activity
+            android:name=".bottomnavigation.BottomNavigationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson20.Lesson20Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson19.Lesson19Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson18.Lesson18Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson17.Lesson17Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson16.Lesson16Activity"
+            android:exported="true" />
+        <activity
+            android:name=".lesson15.Lesson15Activity"
+            android:exported="true" />
         <activity
             android:name=".lesson14.DetailsL14Activity"
             android:exported="false" />
@@ -75,7 +101,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".lesson2.SecondActivity"
+            android:name=".lesson2.AActivity"
             android:exported="true" />
     </application>
 

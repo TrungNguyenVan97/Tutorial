@@ -1,8 +1,8 @@
 package com.example.kotlinapplication.lesson14
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlinapplication.R
@@ -71,7 +71,7 @@ class Lesson14Activity : AppCompatActivity(), NewsAdapter.ICallBack {
         val news = listNews[position] as News
         val intent = Intent(this, DetailsL14Activity::class.java)
         intent.putExtra(SEND_NEWS, news)
-        intent.putExtra(SEND_POSITION,position)
+        intent.putExtra(SEND_POSITION, position)
         startActivity(intent)
     }
 }
